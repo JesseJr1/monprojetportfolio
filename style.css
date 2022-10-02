@@ -5,9 +5,11 @@
     /* NAVBAR */
 .navbar {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgba(255, 255, 255, 0.527);
     font-size: 1.3vw;
+    position: sticky;
+    top: 0;
 }
 .navbar-nav {
     width: 100%;
@@ -85,6 +87,11 @@
     padding-top: 7%;
 }
 .formulaire {
-    width: 40%;
+    width: 30%;
 }
 /* ########################################################### */
+    /* MEDIA */
+ @media screen and (max-width:1000px) {
+
+    
+ }

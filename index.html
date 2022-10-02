@@ -9,11 +9,12 @@
 	<title>Jesse Tobias</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- ####################### NAVBAR #######################  -->
+	<nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
 		<a class="navbar-brand" href="#">Home</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 		  <ul class="navbar-nav justify-content-around">
 			<li class="nav-item">
@@ -27,10 +28,11 @@
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#titre-contact">Contact</a>
-			  </li>
+			</li>
 		  </ul>
 		</div>
-	  </nav>
+	</nav>
+<!-- ####################### HEADER #######################  -->
 	<header class="header">
 		<div>
 			<h1 class="titre-h1">Developpeur Web / Web Mobile </h1>
@@ -38,20 +40,20 @@
 	</header>
 
 	<main>
-		<section class="presentation">
-			<h2 class="titre-presentation" id="titre-presentation">Qui suis-je?</h2>
+<!-- ####################### PRESENTATION #######################  -->
+		<section class="presentation" id="titre-presentation">
+			<h2 class="titre-presentation" >Qui suis-je?</h2>
 				<div class="ma-photo-profil">
 					<img src="https://via.placeholder.com/100x10>">
 				</div>
 				<div class="ma-presentation">
 					<p>Je suis blabla</p>
 					<p>full présentation</p>
-				</div>
-				
+				</div>	
 		</section>
-
-		<section>
-			<h2 class="titre-projet" id="titre-projet">Projets</h2>
+<!-- ####################### PROJETS #######################  -->
+		<section id="titre-projet">
+			<h2 class="titre-projet" >Projets</h2>
 				<div class="projets">
 					<div >
 						<img src="https://via.placeholder.com/100x10>" alt="photo du projet">
@@ -67,24 +69,24 @@
 					</div>
 				</div>
 		</section>
-
-		<section class="skill">
+<!-- ####################### SKILL & SOFT SKILLS #######################  -->
+		<section class="skill" id="titre-skill">
 			<div>
-				<h2 class="titre-skill" id="titre-skill">Skills & Soft Skills </h2>
+				<h2 class="titre-skill" >Skills & Soft Skills </h2>
 			</div>
 		</section>
-
+<!-- ####################### CONTACT #######################  -->
 		<section class="contact">
 				<h2 class="titre-contact" id="titre-contact">Contact</h2>
 				<div class="d-flex justify-content-center">
 					<form class="formulaire">
 						<div class="form-group">
 							<label for="name">Nom & Prénom</label>
-							<input type="text" class="form-control" id="name" placeholder="Entez votre nom et prénom">
+							<input type="text" class="form-control" id="name" placeholder="Entrez votre nom et prénom">
 						</div>
 						<div class="form-group">
 							<label for="email">E-mail</label>
-							<input type="email" class="form-control" id="email" placeholder="Enter email">
+							<input type="email" class="form-control" id="email" placeholder="Entrez votre email">
 						</div>
 						<div class="form-group">
 							<label for="textarea">Votre message</label>
@@ -93,25 +95,6 @@
 						<button type="submit" class="btn btn-primary">Envoyer</button>
 					</form>
 				</div>
-				
-
-
-		
-
-						<!-- <div>
-							
-								<label for="Nom-prenom">Nom & Prénom 
-									<input id="nom-prenom" type="text" required />
-								</label>
-								<label for="email">E-Mail 
-									<input id="email" type="email" required />
-								</label>
-								<label for="message">Message 
-									<textarea id="message" name="message" rows="3" cols="30" placeholder="Ecrivez ici votre message..."></textarea>
-								</label>
-								<input type="envoyer" value="envoyer" />
-							</form>
-						</div> -->
 		</section>
 	</main>
 
