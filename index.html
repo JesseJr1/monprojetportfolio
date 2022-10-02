@@ -9,6 +9,28 @@
 	<title>Jesse Tobias</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav justify-content-around">
+			<li class="nav-item">
+			  <a class="nav-link" href="#titre-presentation">Qui suis-je</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#titre-projet">Projets</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#titre-skill">Skills & Soft Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#titre-contact">Contact</a>
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
 	<header class="header">
 		<div>
 			<h1 class="titre-h1">Developpeur Web / Web Mobile </h1>
@@ -17,15 +39,19 @@
 
 	<main>
 		<section class="presentation">
-			<h2 class="titre-presentation">Qui suis-je?</h2>
+			<h2 class="titre-presentation" id="titre-presentation">Qui suis-je?</h2>
 				<div class="ma-photo-profil">
 					<img src="https://via.placeholder.com/100x10>">
 				</div>
-				<p class="ma-presentation">Je suis blablablakkkezjtonezutnezuotnzuitnezutnezuotnezunezunzeutnzeutnezutezu</p>
+				<div class="ma-presentation">
+					<p>Je suis blabla</p>
+					<p>full présentation</p>
+				</div>
+				
 		</section>
 
 		<section>
-			<h2 class="titre-projet">Projets</h2>
+			<h2 class="titre-projet" id="titre-projet">Projets</h2>
 				<div class="projets">
 					<div >
 						<img src="https://via.placeholder.com/100x10>" alt="photo du projet">
@@ -44,12 +70,12 @@
 
 		<section class="skill">
 			<div>
-				<h2 class="titre-skill" id="skill">Skills & Soft Skills </h2>
+				<h2 class="titre-skill" id="titre-skill">Skills & Soft Skills </h2>
 			</div>
 		</section>
 
 		<section class="contact">
-				<h2 class="titre-contact" id="contact">Contact</h2>
+				<h2 class="titre-contact" id="titre-contact">Contact</h2>
 				<div class="d-flex justify-content-center">
 					<form class="formulaire">
 						<div class="form-group">
@@ -57,7 +83,7 @@
 							<input type="text" class="form-control" id="name" placeholder="Entez votre nom et prénom">
 						</div>
 						<div class="form-group">
-							<label for="email">Email address</label>
+							<label for="email">E-mail</label>
 							<input type="email" class="form-control" id="email" placeholder="Enter email">
 						</div>
 						<div class="form-group">
